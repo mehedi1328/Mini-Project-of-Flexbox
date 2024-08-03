@@ -1,0 +1,52 @@
+body{
+    font-family: 'Sono', sans-serif;
+}
+
+.price-feature>li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.price-table{
+    display: flex;
+    height: 100vh;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+
+}
+.price-box{
+    flex: 1;
+    max-width:400px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    box-shadow: 10px 10px 10px red;
+    text-align: center;
+    border-radius: 5px;
+
+}
+.price-title{
+   font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.price-list{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+button{
+    color: white;
+    background-color: #FF6600;
+    border-style: none;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+@media(max-width:800px){
+    .price-table{
+        flex-direction: column;
+        height: 100%;
+    }
+}
